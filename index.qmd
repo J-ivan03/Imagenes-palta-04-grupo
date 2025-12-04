@@ -44,7 +44,7 @@ Desarrollar un sistema estructurado de etiquetado y anotación de imágenes de h
 5.  Evaluar la calidad del dataset anotado mediante revisión sistemática de etiquetas y verificación de la coherencia entre anotadores.
 6.  Preparar el conjunto de datos para su uso en modelos de visión por computadora, integrando las anotaciones en pipelines de entrenamiento y validación.
 
-# Desarrollo
+# DESARROLLO
 
 ## ¿Qué es Anaconda?
 
@@ -77,3 +77,69 @@ Permite a los usuarios crear y gestionar anotaciones de datos de manera eficient
 ## Modo de uso de Label Studio
 
 -   **Instalación:** Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando el paquete con pip: Copiar código : pip install label-studio.
+
+    ![](paso1.jpg)
+
+-   **Iniciar Iniciar Label Studio desde Anaconda Prompt**
+
+![](02.jpg)
+
+-   **Se crea un proyecto**
+
+    Una ves instalado Label Studio, inicio cesion utilizando el comando o codigo label studio. Esto abrirá la aplicación en un navegador web donde puedes crear un nuevo proyecto. Un proyecto en Label Studio consiste en una colección de datos que vas a etiquetar.
+
+-   **Configuración del Tipo de Etiquetado**
+
+    **a) Clasificación de imágenes:** donde se asignan etiquetas a las imágenes (por ejemplo, “perro”, “gato”).
+
+    **b) Detección de objetos:** donde se dibujan cuadros alrededor de objetos dentro de una imagen.
+
+    **c) Segmentación de imágenes:** donde se etiquetan áreas específicas dentro de la imagen, útil en tareas de visión por computadora.
+
+-   **Subir Datos**
+
+    Los datos (imágenes, audios, textos, videos, etc.) se cargan al proyecto. Puedes subir tus archivos desde tu computadora o importarlos desde un servidor o almacenamiento en la nube.
+
+-   **Etiqueta de Datos**
+
+    Una vez que los datos están cargados, puedes comenzar a etiquetar. La interfaz de usuario de Label Studio es bastante intuitiva y permite a los usuarios seleccionar y etiquetar con facilidad. Si estás etiquetando imágenes, por ejemplo, puedes dibujar cuadros o polígonos alrededor de los objetos que quieres identificar y asignarles etiquetas específicas.
+
+-   **Revisión y Exportación**
+
+    Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning. \# MATERIALES Y METODOS
+
+## Materiales empleados en el trabajo
+
+Hojas del cultivo de palta (Persea Americana) 1. Imágenes de hojas de palta Se utilizaron un total de 30 hojas, capturadas en condiciones controladas, incluyendo variaciones en iluminación, ángulo de toma. Las fotografías fueron obtenidas con dispositivos móviles. Este material constituyó la base del conjunto de datos destinado a la anotación.
+
+2.  Equipo de cómputo Se empleó un equipo portátil con sistema operativo Windows.
+
+3.  Plataforma de anotación: Label Studio Se utilizó label studio, una herramienta de código abierto para la anotación de datos visuales.
+
+4.  Entorno de desarrollo R y RStudio Para la elaboración de este sitio web y la documentación metodológica se utilizó rstudio, Además, se empleó Quarto para la generación del sitio web, facilitando la estructuración del contenido en formato reproducible.
+
+## Procedimientos empleados
+
+Como grupo se considero la toma de 5 fotografias de diferentes hojas por cada integrante del grupo, para la cual, para mantener un mejor orden se coloco las imagenes en un google drive.
+
+![](grupo4_h001.....jpg) Ejemplo de las imagenes.
+
+-   **Link de las 30 imagenes de hojas de palta (Persea americana).**
+
+https://drive.google.com/drive/folders/11ezcuANsCi2VOo6hzjzPEXoO6RYLLo8U
+
+-   **Crear un proyecto: Llamado "Anotaciones de imagenes palto"**
+
+![](images/I.jpeg)
+
+-   **Subir imágenes: Imágenes de las hojas de palto**
+
+![](images/II.jpeg)
+
+-   **Etiquetado** Primero Seleccione la etiqueta para comenzar a dibujar alrededor de las imágenes haciendo puntos. ![](images/III.jpeg)
+
+-   **El etiquetado se revisa y ajusta según sea necesario**
+
+![](images/IV.jpeg) \## RESULTADOS
+
+<https://drive.google.com/drive/u/0/folders/12gu83o8PPPS1Uvj53K9Cc5vKET5xwczR>

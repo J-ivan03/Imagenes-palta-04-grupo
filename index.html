@@ -84,11 +84,13 @@ background-size: cover;
   <li><a href="#o.-obejtivo-general" id="toc-o.-obejtivo-general" class="nav-link" data-scroll-target="#o.-obejtivo-general"><span class="header-section-number">2.1</span> O. OBEJTIVO GENERAL</a></li>
   <li><a href="#o.-objetivo-especifico" id="toc-o.-objetivo-especifico" class="nav-link" data-scroll-target="#o.-objetivo-especifico"><span class="header-section-number">2.2</span> O. OBJETIVO ESPECIFICO</a></li>
   </ul></li>
-  <li><a href="#desarrollo" id="toc-desarrollo" class="nav-link" data-scroll-target="#desarrollo"><span class="header-section-number">3</span> Desarrollo</a>
+  <li><a href="#desarrollo" id="toc-desarrollo" class="nav-link" data-scroll-target="#desarrollo"><span class="header-section-number">3</span> DESARROLLO</a>
   <ul class="collapse">
   <li><a href="#qué-es-anaconda" id="toc-qué-es-anaconda" class="nav-link" data-scroll-target="#qué-es-anaconda"><span class="header-section-number">3.1</span> ¿Qué es Anaconda?</a></li>
   <li><a href="#qué-es-label-studio" id="toc-qué-es-label-studio" class="nav-link" data-scroll-target="#qué-es-label-studio"><span class="header-section-number">3.2</span> ¿Qué es Label Studio?</a></li>
   <li><a href="#modo-de-uso-de-label-studio" id="toc-modo-de-uso-de-label-studio" class="nav-link" data-scroll-target="#modo-de-uso-de-label-studio"><span class="header-section-number">3.3</span> Modo de uso de Label Studio</a></li>
+  <li><a href="#materiales-empleados-en-el-trabajo" id="toc-materiales-empleados-en-el-trabajo" class="nav-link" data-scroll-target="#materiales-empleados-en-el-trabajo"><span class="header-section-number">3.4</span> Materiales empleados en el trabajo</a></li>
+  <li><a href="#procedimientos-empleados" id="toc-procedimientos-empleados" class="nav-link" data-scroll-target="#procedimientos-empleados"><span class="header-section-number">3.5</span> Procedimientos empleados</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -128,7 +130,7 @@ background-size: cover;
 </section>
 </section>
 <section id="desarrollo" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Desarrollo</h1>
+<h1 data-number="3"><span class="header-section-number">3</span> DESARROLLO</h1>
 <section id="qué-es-anaconda" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="qué-es-anaconda"><span class="header-section-number">3.1</span> ¿Qué es Anaconda?</h2>
 <p>Es una plataforma que facilita el uso de Python y R para realizar tareas de análisis de datos, ciencia de datos, aprendizaje automático y computación científica. Anaconda y sus herramientas asociadas son altamente relevantes en la agricultura debido a su capacidad para gestionar y analizar grandes volúmenes de datos.</p>
@@ -156,8 +158,57 @@ background-size: cover;
 <section id="modo-de-uso-de-label-studio" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="modo-de-uso-de-label-studio"><span class="header-section-number">3.3</span> Modo de uso de Label Studio</h2>
 <ul>
-<li><strong>Instalación:</strong> Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando el paquete con pip: Copiar código : pip install label-studio.</li>
+<li><p><strong>Instalación:</strong> Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando el paquete con pip: Copiar código : pip install label-studio.</p>
+<p><img src="paso1.jpg" class="img-fluid"></p></li>
+<li><p><strong>Iniciar Iniciar Label Studio desde Anaconda Prompt</strong></p></li>
 </ul>
+<p><img src="02.jpg" class="img-fluid"></p>
+<ul>
+<li><p><strong>Se crea un proyecto</strong></p>
+<p>Una ves instalado Label Studio, inicio cesion utilizando el comando o codigo label studio. Esto abrirá la aplicación en un navegador web donde puedes crear un nuevo proyecto. Un proyecto en Label Studio consiste en una colección de datos que vas a etiquetar.</p></li>
+<li><p><strong>Configuración del Tipo de Etiquetado</strong></p>
+<p><strong>a) Clasificación de imágenes:</strong> donde se asignan etiquetas a las imágenes (por ejemplo, “perro”, “gato”).</p>
+<p><strong>b) Detección de objetos:</strong> donde se dibujan cuadros alrededor de objetos dentro de una imagen.</p>
+<p><strong>c) Segmentación de imágenes:</strong> donde se etiquetan áreas específicas dentro de la imagen, útil en tareas de visión por computadora.</p></li>
+<li><p><strong>Subir Datos</strong></p>
+<p>Los datos (imágenes, audios, textos, videos, etc.) se cargan al proyecto. Puedes subir tus archivos desde tu computadora o importarlos desde un servidor o almacenamiento en la nube.</p></li>
+<li><p><strong>Etiqueta de Datos</strong></p>
+<p>Una vez que los datos están cargados, puedes comenzar a etiquetar. La interfaz de usuario de Label Studio es bastante intuitiva y permite a los usuarios seleccionar y etiquetar con facilidad. Si estás etiquetando imágenes, por ejemplo, puedes dibujar cuadros o polígonos alrededor de los objetos que quieres identificar y asignarles etiquetas específicas.</p></li>
+<li><p><strong>Revisión y Exportación</strong></p>
+<p>Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning. # MATERIALES Y METODOS</p></li>
+</ul>
+</section>
+<section id="materiales-empleados-en-el-trabajo" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="materiales-empleados-en-el-trabajo"><span class="header-section-number">3.4</span> Materiales empleados en el trabajo</h2>
+<p>Hojas del cultivo de palta (Persea Americana) 1. Imágenes de hojas de palta Se utilizaron un total de 30 hojas, capturadas en condiciones controladas, incluyendo variaciones en iluminación, ángulo de toma. Las fotografías fueron obtenidas con dispositivos móviles. Este material constituyó la base del conjunto de datos destinado a la anotación.</p>
+<ol start="2" type="1">
+<li><p>Equipo de cómputo Se empleó un equipo portátil con sistema operativo Windows.</p></li>
+<li><p>Plataforma de anotación: Label Studio Se utilizó label studio, una herramienta de código abierto para la anotación de datos visuales.</p></li>
+<li><p>Entorno de desarrollo R y RStudio Para la elaboración de este sitio web y la documentación metodológica se utilizó rstudio, Además, se empleó Quarto para la generación del sitio web, facilitando la estructuración del contenido en formato reproducible.</p></li>
+</ol>
+</section>
+<section id="procedimientos-empleados" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="procedimientos-empleados"><span class="header-section-number">3.5</span> Procedimientos empleados</h2>
+<p>Como grupo se considero la toma de 5 fotografias de diferentes hojas por cada integrante del grupo, para la cual, para mantener un mejor orden se coloco las imagenes en un google drive.</p>
+<p><img src="grupo4_h001.....jpg" class="img-fluid"> Ejemplo de las imagenes.</p>
+<ul>
+<li><strong>Link de las 30 imagenes de hojas de palta (Persea americana).</strong></li>
+</ul>
+<p>https://drive.google.com/drive/folders/11ezcuANsCi2VOo6hzjzPEXoO6RYLLo8U</p>
+<ul>
+<li><strong>Crear un proyecto: Llamado “Anotaciones de imagenes palto”</strong></li>
+</ul>
+<p><img src="images/I.jpeg" class="img-fluid"></p>
+<ul>
+<li><strong>Subir imágenes: Imágenes de las hojas de palto</strong></li>
+</ul>
+<p><img src="images/II.jpeg" class="img-fluid"></p>
+<ul>
+<li><p><strong>Etiquetado</strong> Primero Seleccione la etiqueta para comenzar a dibujar alrededor de las imágenes haciendo puntos. <img src="images/III.jpeg" class="img-fluid"></p></li>
+<li><p><strong>El etiquetado se revisa y ajusta según sea necesario</strong></p></li>
+</ul>
+<p><img src="images/IV.jpeg" class="img-fluid"> ## RESULTADOS</p>
+<p><a href="https://drive.google.com/drive/u/0/folders/12gu83o8PPPS1Uvj53K9Cc5vKET5xwczR" class="uri">https://drive.google.com/drive/u/0/folders/12gu83o8PPPS1Uvj53K9Cc5vKET5xwczR</a></p>
 </section>
 </section>
 
