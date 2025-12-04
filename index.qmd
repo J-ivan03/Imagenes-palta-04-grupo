@@ -1,0 +1,79 @@
+---
+title: "Label Studio como Plataforma de Etiquetado para el Análisis Automático de Hojas de Palta mediante Aprendizaje Automático"
+author: "Lalangui Peña, Ortiz Savaleta, Torres Salazar, Coronel Balcazar, Maicelo Villanueva"
+format:
+  html:
+    toc: true
+    toc-location: left
+    theme: cosmo
+    number-sections: true
+    title-block-banner: "untrm.png"
+    css: styles.css
+    smooth-scroll: true
+editor: visual
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# INTRODUCCIÓN
+
+![](palta.webp)
+
+La palta (Persea americana) es un cultivo estratégico en numerosos sistemas agrícolas debido a su alto valor nutricional, sus propiedades funcionales y la creciente demanda global. En este contexto, la identificación temprana de alteraciones foliares derivadas de estrés biótico, abiótico o deficiencias nutricionales, esto resulta fundamental para optimizar la productividad y fortalecer las decisiones dentro de la agricultura de precisión. En los últimos años, la integración de técnicas de visión por computadora y modelos de aprendizaje automático ha permitido automatizar procesos que antes dependían exclusivamente de la inspección visual humana, aumentando así la eficiencia y la reproducibilidad del diagnóstico vegetal.
+
+El desarrollo de estos modelos requiere disponer de un conjunto de imágenes adecuadamente etiquetadas. En este sentido, Label Studio se ha consolidado como una herramienta versátil y de código abierto para la anotación estructurada de datos visuales. Su capacidad para definir regiones de interés, crear máscaras, clasificar patrones y exportar anotaciones en formatos compatibles con marcos de trabajo como TensorFlow, PyTorch o Keras lo convierte en un recurso esencial dentro de los flujos modernos de análisis automatizado.
+
+En el caso de las hojas de palta, la anotación precisa adquiere especial relevancia, puesto que la forma del limbo, la textura, el color, las lesiones y otros rasgos visuales influyen directamente en el desempeño de los algoritmos de clasificación y segmentación. Por ello, el uso de Label Studio no solo facilita la organización y el etiquetado meticuloso de las imágenes, sino que garantiza la trazabilidad y la estandarización necesarias para reproducir el análisis.
+
+Este sitio web documenta el proceso de preparación, organización y etiquetado de un conjunto de imágenes de hojas de palta mediante Label Studio. Se describen los procedimientos técnicos empleados, la configuración de la plataforma, los criterios para definir clases y categorías, así como los pasos seguidos para exportar las anotaciones hacia modelos de aprendizaje automático. El objetivo es proporcionar una guía clara y reproducible para investigadores, estudiantes y profesionales interesados en aplicar herramientas de anotación digital dentro del contexto de la agricultura de precisión.
+
+# OBJETIVOS
+
+## O. OBEJTIVO GENERAL
+
+Desarrollar un sistema estructurado de etiquetado y anotación de imágenes de hojas de palta (*Persea americana*) utilizando la plataforma Label Studio, con el fin de generar un conjunto de datos confiable y adecuado para el entrenamiento y validación de modelos de aprendizaje automático orientados al análisis foliar.
+
+## O. OBJETIVO ESPECIFICO
+
+1.  Documentar el procedimiento de captura, organización y preprocesamiento de imágenes de hojas de palta como insumo para la construcción del dataset.
+2.  Configurar y adaptar la interfaz de Label Studio para la anotación de hojas de palta, definiendo clases, etiquetas y criterios visuales relevantes para el análisis automático.
+3.  Realizar la anotación manual de regiones de interés (ROI) en las imágenes, considerando la morfología foliar, presencia de daños, manchas, variaciones cromáticas y otros patrones visuales relevantes.
+4.  Exportar las anotaciones generadas en formatos compatibles con marcos de trabajo de aprendizaje profundo (p. ej., COCO, Pascal VOC, JSON-LS), garantizando su calidad y consistencia.
+5.  Evaluar la calidad del dataset anotado mediante revisión sistemática de etiquetas y verificación de la coherencia entre anotadores.
+6.  Preparar el conjunto de datos para su uso en modelos de visión por computadora, integrando las anotaciones en pipelines de entrenamiento y validación.
+
+# Desarrollo
+
+## ¿Qué es Anaconda?
+
+Es una plataforma que facilita el uso de Python y R para realizar tareas de análisis de datos, ciencia de datos, aprendizaje automático y computación científica. Anaconda y sus herramientas asociadas son altamente relevantes en la agricultura debido a su capacidad para gestionar y analizar grandes volúmenes de datos.
+
+**Algunos ejemplos de su aplicación en la agricultura son:**
+
+1.  Análisis de datos agrícolas
+2.  Monitoreo de cultivos
+3.  Agricultura de precisión
+4.  Modelado y predicción de clima
+5.  Gestión de recursos
+
+## ¿Qué es Label Studio?
+
+![](laibelstudio.jpg)
+
+Permite a los usuarios crear y gestionar anotaciones de datos de manera eficiente. Su propósito es proporcionar una plataforma fácil de usar para realizar tareas de etiquetado que son cruciales para entrenar modelos de IA. Las anotaciones pueden incluir tareas como clasificación, segmentación, detección de objetos, y más. Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando Docker o simplemente instalando el paquete con pip: pip install label-studio y luego label-studio.
+
+**Características principales:**
+
+-   Soporta múltiples tipos de datos: Imágenes, texto, audio, video y más.
+
+-   Interfaz personalizable: Los usuarios pueden crear sus propios flujos de trabajo y definir el tipo de anotación que se requiere (por ejemplo, etiquetar objetos en una imagen, o clasificar texto).
+
+-   Integración con modelos de aprendizaje automático: Se puede conectar con modelos preexistentes para realizar anotaciones automáticas y luego corregirlas manualmente.
+
+-   Gestión de equipos: Permite trabajar en equipo, asignar tareas a diferentes personas y realizar un seguimiento del progreso.
+
+## Modo de uso de Label Studio
+
+-   **Instalación:** Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando el paquete con pip: Copiar código : pip install label-studio.
