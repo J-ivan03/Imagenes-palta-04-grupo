@@ -106,7 +106,9 @@ Permite a los usuarios crear y gestionar anotaciones de datos de manera eficient
 
 -   **Revisión y Exportación**
 
-    Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning. \# MATERIALES Y METODOS
+    Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning. \
+
+## MATERIALES Y METODOS
 
 ## Materiales empleados en el trabajo
 
@@ -126,7 +128,7 @@ Como grupo se considero la toma de 5 fotografias de diferentes hojas por cada in
 
 -   **Link de las 30 imagenes de hojas de palta (Persea americana).**
 
-https://drive.google.com/drive/folders/11ezcuANsCi2VOo6hzjzPEXoO6RYLLo8U
+<https://drive.google.com/drive/folders/11ezcuANsCi2VOo6hzjzPEXoO6RYLLo8U>
 
 -   **Crear un proyecto: Llamado "Anotaciones de imagenes palto"**
 
@@ -136,10 +138,26 @@ https://drive.google.com/drive/folders/11ezcuANsCi2VOo6hzjzPEXoO6RYLLo8U
 
 ![](images/II.jpeg)
 
--   **Etiquetado** Primero Seleccione la etiqueta para comenzar a dibujar alrededor de las imágenes haciendo puntos. ![](images/III.jpeg)
+-   **Etiquetado**
+
+    Primero Seleccione la etiqueta para comenzar a dibujar alrededor de las imágenes haciendo puntos. ![](images/III.jpeg)
 
 -   **El etiquetado se revisa y ajusta según sea necesario**
 
-![](images/IV.jpeg) \## RESULTADOS
+![](images/IV.jpeg)
+
+## RESULTADOS
 
 <https://drive.google.com/drive/u/0/folders/12gu83o8PPPS1Uvj53K9Cc5vKET5xwczR>
+
+En este link se encontrara todas las imagenes que se emplearon para el presente trabajo, utilizando label studio.
+
+## CONCLUSIONES
+
+El uso de herramientas digitales como Anaconda y Label Studio constituye un apoyo fundamental para el análisis avanzado de imágenes foliares de palta (Persea americana). Anaconda permite gestionar entornos de trabajo con Python y R de manera integrada, facilitando el procesamiento de grandes volúmenes de datos y la construcción de modelos predictivos orientados al diagnóstico vegetal. Por su parte, Label Studio optimiza el proceso de etiquetado de imágenes de hojas, permitiendo identificar patrones asociados a estrés hídrico, deficiencias nutricionales o la presencia de patógenos con un alto grado de precisión. La combinación de estas tecnologías fortalece la toma de decisiones en sistemas de producción de palta, impulsa el desarrollo de modelos de inteligencia artificial aplicados a la agricultura y contribuye a la innovación y sostenibilidad del sector.
+
+## REFERENCIAS
+
+Anaconda. (s. f.). https://www.anaconda.com/download
+
+Open Source Data Labeling. (s. f.).https://labelstud.io/
