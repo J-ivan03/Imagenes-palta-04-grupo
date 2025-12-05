@@ -1,6 +1,6 @@
 ---
 title: "Label Studio como Plataforma de Etiquetado para el Análisis Automático de Hojas de Palta mediante Aprendizaje Automático"
-author: "Lalangui Peña, Ortiz Savaleta, Torres Salazar, Coronel Balcazar, Maicelo Villanueva"
+author: "Lalangui Peña, Ortiz Zavaleta, Torres Salazar, Coronel Balcazar, Maicelo Villanueva, santillan Gil"
 format:
   html:
     toc: true
