@@ -1,6 +1,6 @@
 ---
 title: "Label Studio como Plataforma de Etiquetado para el Análisis Automático de Hojas de Palta mediante Aprendizaje Automático"
-author: "Lalangui Peña, Ortiz Zavaleta, Torres Salazar, Coronel Balcazar, Maicelo Villanueva, santillan Gil"
+author: "Lalangui Peña, Ortiz Zavaleta, Torres Salaza, Coronel Balcazar, Maicelo Villanueva, santillan Gil"
 format:
   html:
     toc: true
@@ -106,7 +106,7 @@ Permite a los usuarios crear y gestionar anotaciones de datos de manera eficient
 
 -   **Revisión y Exportación**
 
-    Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning. \
+    Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning.\
 
 ## MATERIALES Y METODOS
 
